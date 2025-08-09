@@ -1,0 +1,26 @@
+body {
+  font-family: Comic Sans MS, cursive;
+  text-align: center;
+  background-color: #fff3cd;
+  padding: 20px;
+  transition: background-color 0.2s, transform 0.1s;
+}
+textarea {
+  width: 80%;
+  height: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: 3px solid red;
+}
+#explosionMessage {
+  font-size: 48px;
+  color: red;
+  font-weight: bold;
+  display: none;
+  animation: flash 0.2s infinite;
+}
+@keyframes flash {
+  0% { color: red; }
+  50% { color: yellow; }
+  100% { color: red; }
+}
